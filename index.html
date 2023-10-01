@@ -4,33 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robot" content="noindex, nofollow">
     <meta name="keywords" content="documentatie, docs, lezen, stappenplan, beginnen, begin">
     <meta name="theme-color" content="#0d6efd">
     <meta name="title" content="Lees de docs.">
-    <meta name="description" content="Begin je leven te beteren en volg ons ultiem stappenplan om documentatie's te lezen!">
+    <meta name="description" content="Begin je leven te verbeteren en volg ons ultieme stappenplan om documentatie te lezen!">
     <meta property="og:title" content="Lees de docs.">
-    <meta property="og:description" content="Begin je leven te beteren en volg ons ultiem stappenplan om documentatie's te lezen!">
+    <meta property="og:description" content="Begin je leven te verbeteren en volg ons ultieme stappenplan om documentatie te lezen!">
     <meta property="twitter:title" content="Lees de docs.">
-    <meta property="twitter:description" content="Begin je leven te beteren en volg ons ultiem stappenplan om documentatie's te lezen!">
+    <meta property="twitter:description" content="Begin je leven te verbeteren en volg ons ultieme stappenplan om documentatie te lezen!">
     <link rel="icon" type="image/png" sizes="32x32" href="static/favicon.png">
-    <link rel="stylesheet" href="static/mdb.min.css">
-    <link rel="stylesheet" href="static/style.css?v=1">
-    <script src="static/mdb.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/styles.css">
     <title>LeesDeDocs</title>
 </head>
-<body>
-    <div class="container">
-        <div class="text-center text">
-            <h1 id="title">Lees De Docs!</h1>
-            <p>Je kan documentatie heel simpel lezen, zoek de plugin/progamma/module op je zoekmachine, en zoek daarvan de documentatie. <br><br><b>Opgelost!</b></p>
-        </div>
+<body class="bg-gray-100">
+    <div class="flex flex-col justify-center items-center min-h-screen">
+        <h1 id="title" class="text-6xl font-bold font-roboto mb-4">Lees De Docs!</h1>
+        <p class="text-lg text-center max-w-lg font-roboto italic">Je kunt documentatie heel eenvoudig lezen. Zoek de plugin/programma/module op in je zoekmachine en zoek de documentatie ervan op. <br><br>Opgelost!</p>
     </div>
-    <footer class="text-center text-white fixed-bottom">
-        <div class="text-center p-1">
-            <h4 class="text-center p-1" id="text-class">Deze website is gebaseerd op <a class="text-gray" href="https://ikleesgeendocs.nl">IkLeesGeenDocs.nl</a></h4>
+    <footer class="text-center text-white fixed bottom-0 left-0 w-full py-2 bg-transparent">
+        <div class="p-1 flex justify-end items-center">
+            <h4 id="text-class" class="text-gray-400 text-base italic mr-2">Deze website is gebaseerd op <a class="text-gray-400 hover:text-blue-400" href="https://snellezen.com/beter-lezen/">snellezen.com</a></h4>
+            <span id="dark-mode-toggle" class="text-gray-400 text-lg cursor-pointer">&#127769;</span>
         </div>
     </footer>
+
+    <script src="static/script.js"></script>
 </body>
 </html>
